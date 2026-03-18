@@ -42,12 +42,13 @@
 %	PERSONAL INFORMATION
 %----------------------------------------------------------------------------------------
 \name{Matías}{Oveja Smith}
-\address{Tandil, Argentina}
+% \address{Tandil, Argentina}
 \mobile{t.me/mati\_os}
 \email{matias.ovejasmith@gmail.com}
 \homepage{x.com/mati\_os\_eth}
 \github{MatiasOS}
 \linkedin{mOvejaSmith}
+\medium{@mati-os}
 %\skype{movejasmith}
 %\stackoverflow{SOid}{SOname}
 \position{software engineer} % Your expertise/fields
@@ -56,17 +57,24 @@
 
 %----------------------------------------------------------------------------------------
 \begin{document}
+\hypersetup{
+  pdftitle={Matías Oveja Smith - Software Engineer},
+  pdfauthor={Matías Oveja Smith},
+  pdfsubject={Software Engineer with 10+ years experience in TypeScript, Node.js, React, Web3, and team leadership},
+  pdfkeywords={Software Engineer, TypeScript, JavaScript, Node.js, React, Next.js, PostgreSQL, MongoDB, Web3, Ethereum, Solidity, Tech Lead, Docker, AWS, CI/CD, AI Engineering, GraphQL, NestJS}
+}
 \makecvheader % Print the header
 
 %----------------------------------------------------------------------------------------
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %----------------------------------------------------------------------------------------
+\input{cv-sections/summary.tex}
 \input{cv-sections/skills.tex}
 \input{cv-sections/experience.tex}
 \input{cv-sections/education.tex}
 \input{cv-sections/extras.tex}
-% \input{cv-sections/writing.tex}
+\input{cv-sections/writing.tex}
 
 %----------------------------------------------------------------------------------------
 \end{document}

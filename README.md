@@ -1,5 +1,7 @@
 ## CV
 
+CV como .tex, buildeado y exportado como .pdf
+
 ### Install tex
 ```bash
 $ sudo apt-get install texlive-full
